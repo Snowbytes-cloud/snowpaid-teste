@@ -1739,34 +1739,12 @@ end)
 -- ================================
 -- Credits Tab
 -- ================================
--- Aba de Créditos
 local CreditsTab = window:AddTab("Créditos")
 
--- Labels
-CreditsTab:AddLabel("Desenvolvido por Snow").TextSize = 25
-CreditsTab:AddLabel("Script Pago!").TextSize = 20
-
--- Discord
-CreditsTab:AddLabel("🌐 Servidor Oficial do Script!:")
-CreditsTab:AddButton("Entrar no Discord", function()
-    setclipboard("https://discord.gg/Kw5avTFZ8A")
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Zenith store",
-        Text = "Link do Discord copiado! Cole no navegador ou no discord para entrar.",
-        Duration = 5
-    })
-end)
-
--- YouTube
-CreditsTab:AddLabel("📺 Meu Canal no YouTube:")
-CreditsTab:AddButton("Acessar YouTube", function()
-    setclipboard("https://youtube.com/@snowsplezz?si=nEjKRgSVzC3T03Ya")
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Snow01",
-        Text = "Link do YouTube copiado! Cole no navegador para acessar meu canal.",
-        Duration = 5
-    })
-end)
+CreditsTab:AddLabel("Desenvolvido por itsbleedingyz").TextSize = 25
+CreditsTab:AddLabel("Contato:").TextSize = 20
+CreditsTab:AddLabel("Discord: itsbleedingyz").TextSize = 20
+]====]
 
 --// Funções para abrir
 local function openEnglish()
