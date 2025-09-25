@@ -1741,9 +1741,10 @@ end)
 -- ================================
 local CreditsTab = window:AddTab("Créditos")
 
-CreditsTab:AddLabel("Desenvolvido por itsbleedingyz").TextSize = 25
+CreditsTab:AddLabel("Desenvolvido por Snow").TextSize = 25
 CreditsTab:AddLabel("Contato:").TextSize = 20
-CreditsTab:AddLabel("Discord: itsbleedingyz").TextSize = 20
+CreditsTab:AddLabel("Discord: matheustxx").TextSize = 20
+CreditsTab:AddLabel("youtube: snow01").TextSize = 20
 ]====]
 
 --// Funções para abrir
