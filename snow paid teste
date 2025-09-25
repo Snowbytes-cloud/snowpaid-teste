@@ -1743,8 +1743,6 @@ local CreditsTab = window:AddTab("Créditos")
 
 CreditsTab:AddLabel("Desenvolvido por Snow").TextSize = 25
 CreditsTab:AddLabel("Script Pago!").TextSize = 20
-
--- Botão do Discord
 noteTab:AddLabel("🌐 Servidor Oficial do Script!:")
 noteTab:AddButton("Entrar no Discord", function()
 	setclipboard("https://discord.gg/Kw5avTFZ8A") -- copia o link
@@ -1754,7 +1752,6 @@ noteTab:AddButton("Entrar no Discord", function()
 		Duration = 5
 	})
 end)
-
 noteTab:AddLabel("📺 Meu Canal no YouTube:")
 noteTab:AddButton("Acessar YouTube", function()
 	setclipboard("https://youtube.com/@snowsplezz?si=nEjKRgSVzC3T03Ya") -- << coloque o link do seu canal
