@@ -91,9 +91,9 @@ end)
 
 local mainColor = (success and userColors[Player.Name]) or Color3.fromRGB(25, 25, 122)
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/556ii/zzzzzzizzzzzz/d629b507937bc6e58367239d2f4e5e6cc92e1793/iiiiii19", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Snowbytes-cloud/suez/refs/heads/main/Suez"))()
 
-local window = library:AddWindow("Empty Hub | Farming", {
+local window = library:AddWindow("Snow paid | Farming", {
     main_color = mainColor,
     min_size = Vector2.new(700, 650),
     can_resize = false,
@@ -1739,27 +1739,33 @@ end)
 -- ================================
 -- Credits Tab
 -- ================================
+-- Aba de Créditos
 local CreditsTab = window:AddTab("Créditos")
 
+-- Labels
 CreditsTab:AddLabel("Desenvolvido por Snow").TextSize = 25
 CreditsTab:AddLabel("Script Pago!").TextSize = 20
-noteTab:AddLabel("🌐 Servidor Oficial do Script!:")
-noteTab:AddButton("Entrar no Discord", function()
-	setclipboard("https://discord.gg/Kw5avTFZ8A") -- copia o link
-	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Snow paid",
-		Text = "Link do Discord copiado! Cole no navegador ou no discord para entrar.",
-		Duration = 5
-	})
+
+-- Discord
+CreditsTab:AddLabel("🌐 Servidor Oficial do Script!:")
+CreditsTab:AddButton("Entrar no Discord", function()
+    setclipboard("https://discord.gg/Kw5avTFZ8A")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Zenith store",
+        Text = "Link do Discord copiado! Cole no navegador ou no discord para entrar.",
+        Duration = 5
+    })
 end)
-noteTab:AddLabel("📺 Meu Canal no YouTube:")
-noteTab:AddButton("Acessar YouTube", function()
-	setclipboard("https://youtube.com/@snowsplezz?si=nEjKRgSVzC3T03Ya") -- << coloque o link do seu canal
-	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Snow01",
-		Text = "Link do YouTube copiado! Cole no navegador para acessar meu canal.",
-		Duration = 5
-	})
+
+-- YouTube
+CreditsTab:AddLabel("📺 Meu Canal no YouTube:")
+CreditsTab:AddButton("Acessar YouTube", function()
+    setclipboard("https://youtube.com/@snowsplezz?si=nEjKRgSVzC3T03Ya")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Snow01",
+        Text = "Link do YouTube copiado! Cole no navegador para acessar meu canal.",
+        Duration = 5
+    })
 end)
 
 --// Funções para abrir
