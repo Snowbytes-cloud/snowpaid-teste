@@ -2,7 +2,7 @@
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 
-local whitelistURL = "https://raw.githubusercontent.com/itsbleedingyz01/Wl/refs/heads/main/Wl"
+local whitelistURL = "https://raw.githubusercontent.com/Snowbytes-cloud/wl/refs/heads/main/wl"
 
 local success, whitelist = pcall(function()
     return loadstring(game:HttpGet(whitelistURL, true))()
