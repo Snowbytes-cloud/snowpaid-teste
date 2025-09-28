@@ -93,7 +93,7 @@ local mainColor = (success and userColors[Player.Name]) or Color3.fromRGB(25, 25
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Snowbytes-cloud/suez/refs/heads/main/Suez"))()
 
-local window = library:AddWindow("Snow paid | Farming", {
+local window = library:AddWindow("Empty hub | Farming", {
     main_color = mainColor,
     min_size = Vector2.new(700, 650),
     can_resize = false,
